@@ -14,6 +14,7 @@ Joshua Paul Jacob's Personal Website
 <div align="center">
   <img alt="Screenshot" src="https://raw.githubusercontent.com/joshuapjacob/joshuapjacob.com/main/screenshot.png" width="1000" />
 </div>
+
 ## Project Setup
 ```console
 npm install
