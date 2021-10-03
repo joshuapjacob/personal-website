@@ -11,8 +11,9 @@ Joshua Paul Jacob's Personal Website
   Built with <a href="https://vuejs.org/" target="_blank">Vue.js</a> and hosted on <a href="https://m.do.co/c/d1712c8dc6f3" target="_blank">DigitalOcean</a> using <a href="https://www.nginx.com/" target="_blank">Nginx</a> and <a href="https://www.docker.com/" target="_blank">Docker</a>
 </p>
 
-<img alt="Screenshot" src="https://raw.githubusercontent.com/joshuapjacob/joshuapjacob.com/main/screenshot.png" width="100" />
-
+<div align="center">
+  <img alt="Screenshot" src="https://raw.githubusercontent.com/joshuapjacob/joshuapjacob.com/main/screenshot.png" width="1000" />
+</div>
 ## Project Setup
 ```console
 npm install
