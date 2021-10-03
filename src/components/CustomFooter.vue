@@ -32,7 +32,7 @@ a {
 
 #inner {
   font-size: 14px;
-  opacity: 75%;
+  opacity: 0.75;
   display: flex;
   text-align: center;
   justify-content: center;
