@@ -51,6 +51,8 @@ export default {
   },
   methods: {
     init: function() {
+      let isMobile = window.matchMedia("only screen and (max-width: 760px)")
+        .matches;
       const scene = new Scene();
       this.camera = new PerspectiveCamera(
         75,
@@ -159,8 +161,9 @@ export default {
       this.prevMouse = new Vector2(0, 0);
       this.followMouse = new Vector2(0, 0);
       document.addEventListener("mousemove", this.handleMouse);
-
-      window.addEventListener("resize", this.handleResize);
+      if (!isMobile) {
+        window.addEventListener("resize", this.handleResize);
+      }
     },
     updateSpeed: function() {
       this.speed = Math.sqrt(

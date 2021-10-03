@@ -29,6 +29,8 @@ export default {
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
 #welcome {
   margin: auto;
   height: 100vh;

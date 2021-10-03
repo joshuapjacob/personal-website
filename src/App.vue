@@ -31,6 +31,10 @@ export default {
 </script>
 
 <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -41,7 +45,7 @@ html,
 body {
   /* background-color: black; */
   height: 100%;
-  font-family: "Roboto Mono", Helvetica, sans-serif;
+  font-family: "Roboto Mono", monospace;
   color: white;
   -ms-overflow-style: none;
   scrollbar-width: none;
