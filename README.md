@@ -48,7 +48,13 @@ For HTTPS, certificates are generated/renewed through the [Certbot](https://hub.
 See [joshuapjacob.com-webserver](https://github.com/joshuapjacob/joshuapjacob.com-webserver) for more info.
 
 ## Acknowledgements
-The design and development of this website are made possible thanks to the inspiration and resources from the following projects, tutorials, and people.
+The development of this website is made possible thanks to the inspiration and resources from the following projects, tutorials, and people.
 - [Yuriy Artyukh's Interactive WebGL Hover Effects](https://github.com/akella/webgl-mouseover-effects) for the cool mouse hover effect.
 - [Nginx and Let’s Encrypt with Docker in Less Than 5 Minutes](https://pentacent.medium.com/nginx-and-lets-encrypt-with-docker-in-less-than-5-minutes-b4b8a60d3a71) for HTTPS.
 - [Mike Ko](https://unsplash.com/photos/tjod6u2RpiU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) for the background image.
+- [Brittany Chiang](https://brittanychiang.com/) for general design inspiration.
+
+## TO DO
+- HTML Metadata
+- Search Engine Optimization
+- French Translation
