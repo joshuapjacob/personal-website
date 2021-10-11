@@ -1,5 +1,6 @@
 <template>
   <div id="welcome">
+    <marquees text="JOSHUA PAUL JACOB" :duration="17" />
     <div class="center">
       <div id="full_name">
         <div id="first_names" class="name noselect">
@@ -12,19 +13,19 @@
         me!</router-link
       >
     </div>
-    <div
-      id="scroll-button"
-      href="#"
-      v-scroll-to="{ el: '#about', duration: 700, easing: 'ease-in-out' }"
-    >
-      <img src="@/assets/icons/down-arrow.png" />
-    </div>
   </div>
 </template>
 
 <script>
+import Marquees from "@/components/Marquees.vue";
 export default {
   name: "welcome",
+  metaInfo: {
+    titleTemplate: "Joshua Paul Jacob",
+  },
+  components: {
+    Marquees,
+  },
 };
 </script>
 
@@ -81,28 +82,6 @@ export default {
   margin: 40px;
   margin-top: 60px;
   text-align: center;
-}
-
-/* SCROLL BUTTON ------------------------------------------------------------ */
-
-#scroll-button {
-  position: absolute;
-  bottom: 10vh;
-  cursor: pointer;
-  opacity: 0.5;
-  transform: translate(-50%, -50%);
-  left: 50%;
-  filter: invert(70%);
-  transition: 0.3s ease;
-  text-decoration: none;
-}
-
-#scroll-button:hover {
-  filter: invert(95%);
-}
-
-#scroll-button img {
-  width: 25px;
 }
 
 /* @MEDIA ------------------------------------------------------------------- */

@@ -1,5 +1,6 @@
 <template>
   <div id="about">
+    <marquees text="ABOUT" :duration="5" />
     <div id="left">
       <div class="block">
         <h1>ABOUT ME</h1>
@@ -54,13 +55,15 @@
 </template>
 
 <script>
+import Marquees from "@/components/Marquees.vue";
+
 export default {
   name: "about",
-  components: {},
   data() {
     return {
       birthday: null,
       MS_PER_YEAR: 1000 * 60 * 60 * 24 * 365.2425,
+      timer: null,
     };
   },
   methods: {
@@ -73,7 +76,16 @@ export default {
   },
   mounted() {
     this.birthday = new Date("02/03/2001");
-    setInterval(this.computeAge, 100);
+    this.timer = setInterval(this.computeAge, 100);
+  },
+  beforeDestroy() {
+    clearInterval(this.timer);
+  },
+  metaInfo: {
+    title: "About",
+  },
+  components: {
+    Marquees,
   },
 };
 </script>
@@ -81,10 +93,11 @@ export default {
 <style scoped>
 #about {
   width: 100%;
+  height: 100vh;
   max-width: 1250px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 /* TEXT --------------------------------------------------------------------- */
@@ -94,6 +107,8 @@ export default {
   padding: 20px;
   margin: 30px;
   position: relative;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.6);
 }
 
 #intro {
@@ -119,8 +134,8 @@ h1 {
 img {
   height: 543px;
   top: -30px;
-  -webkit-box-shadow: 20px 20px 0px 0px rgba(0, 0, 0, 0.6);
-  box-shadow: 20px 20px 0px 0px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 20px 20px 1px 0px rgba(0, 0, 0, 0.6);
+  box-shadow: 20px 20px 1px 0px rgba(0, 0, 0, 0.6);
 }
 
 @media only screen and (max-width: 1500px) {

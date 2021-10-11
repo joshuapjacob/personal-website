@@ -1,24 +1,44 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Home from "@/views/Home.vue";
+import Welcome from "@/views/Welcome.vue";
+import About from "@/views/About.vue";
+import Now from "@/views/Now.vue";
 import CV from "@/views/CV.vue";
+import Projects from "@/views/Projects.vue";
+import NotFound from "@/views/NotFound.vue";
 
 Vue.use(VueRouter);
 
 const routes = [
   {
-    path: "*",
-    redirect: "/",
-  },
-  {
     path: "/",
     name: "JOSHUA-PAUL-JACOB",
-    component: Home,
+    component: Welcome,
+  },
+  {
+    path: "/about",
+    name: "About",
+    component: About,
+  },
+  {
+    path: "/now",
+    name: "Now",
+    component: Now,
   },
   {
     path: "/cv",
     name: "CV",
     component: CV,
+  },
+  {
+    path: "/projects",
+    name: "Projects",
+    component: Projects,
+  },
+  {
+    path: "*",
+    name: "NotFound",
+    component: NotFound,
   },
 ];
 

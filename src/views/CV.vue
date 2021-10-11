@@ -13,8 +13,8 @@ export default {
     Marquees,
   },
   metaInfo: {
-      title: 'CV',
-    }
+    title: 'CV',
+  }
 }
 </script>
 

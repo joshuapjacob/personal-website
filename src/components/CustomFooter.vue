@@ -1,13 +1,16 @@
 <template>
   <div id="footer">
     <div id="inner">
+      <div class="vl"></div>
       <p>Ⓒ Joshua Paul Jacob 2021 — All Rights Reserved</p>
+      <div class="vl"></div>
       <a
         href="https://github.com/joshuapjacob/joshuapjacob.com"
         target="_blank"
       >
         &lt; view source code /&gt;
       </a>
+      <div class="vl"></div>
     </div>
   </div>
 </template>
@@ -17,40 +20,53 @@ export default {};
 </script>
 
 <style scoped>
-a {
-  margin-top: 5px;
-}
 
 #footer {
-  width: 100%;
-  padding: 30px;
+  position: fixed;
+  z-index: 10;
+  right: 0;
+  top: 0;
+  height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
+  margin-right: 3vw;
 }
 
 #inner {
-  font-size: 14px;
-  opacity: 0.75;
+  writing-mode: vertical-rl;
   display: flex;
-  text-align: center;
-  justify-content: center;
+  height: 100vh;
   align-items: center;
-  flex-direction: column;
-  padding: 0px;
-  background-color: rgba(0, 0, 0, 0);
 }
 
-@media only screen and (max-width: 900px) {
-  #inner {
-    font-size: 12px;
-  }
+/* VERTICAL LINES */
+
+.vl {
+  width: 1px;
+  background-color: grey;
+  flex-grow: 1;
 }
 
-@media only screen and (max-width: 600px) {
-  #inner {
-    font-size: 10px;
-  }
+p {
+  margin: 10px 0;
+  font-size: 12px;
+  color: grey;
 }
+
+a {
+  text-decoration: none;
+  color: grey;
+  font-family: "Roboto Mono", monospace;
+  font-size: 12px;
+  margin: 10px;
+  transition: 0.3s ease;
+  border: 0px;
+  transform: translateX(2px);
+}
+
+a:hover {
+  color: lightgrey;
+}
+
 </style>

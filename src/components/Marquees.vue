@@ -31,6 +31,7 @@ export default {
   position: fixed;
   top: 50%;
   opacity: 0.25;
+  z-index: 2;
 }
 
 #marquee-right {
