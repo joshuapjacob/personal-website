@@ -9,13 +9,19 @@
           Some of the things I'm learning this semester include market
           microstructure, reinforcement learning in finance, and applied
           statistical learning. I'm trying to run more regularly and I'm (still)
-          developing this website. I'm also trying to get better at chess and
-          I'm reading
+          developing this website. I'm trying to get better at chess and I'm
+          reading
           <a
             href="https://www.goodreads.com/book/show/28186015-weapons-of-math-destruction"
             target="_blank"
             >Cathy O'Neil's <i>Weapons of Math Destruction</i></a
           >.
+          <b
+            ><router-link to="/cv"
+              >I'm also actively seeking an internship in quantitative finance.
+              Hire me!</router-link
+            ></b
+          >
         </p>
 
         <p class="grey">
@@ -95,7 +101,6 @@ h1 {
 #wakatime img {
   width: calc(50% - 10px);
   padding-top: 10px;
-  filter: contrast(2) grayscale(1);
 }
 
 @media only screen and (max-width: 1300px) {

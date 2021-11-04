@@ -1,5 +1,5 @@
 <template>
-  <div>Publications</div>
+  <div>Project Highlights</div>
 </template>
 
 <script>

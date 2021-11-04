@@ -47,12 +47,15 @@ export default {
 
 html,
 body {
-  /* background-color: black; */
   height: 100%;
   font-family: "Roboto Mono", monospace;
   color: white;
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+html {
+  background-color: black;
 }
 
 body::-webkit-scrollbar {

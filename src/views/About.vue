@@ -33,9 +33,9 @@
         <h1>A LITTLE MORE</h1>
         <p>&gt; I'm <span id="age">20</span> years old.</p>
 
-        <p>&gt; I've visited 25 countries and lived on 3 countinents.</p>
+        <p>&gt; I've visited 25 countries and lived in 3 continents.</p>
 
-        <p>&gt; I'm fluent in English and French.</p>
+        <p>&gt; I'm speak English, French, and Tamil.</p>
 
         <p>&gt; I can code in Python, JavaScript, C++, and OCaml.</p>
 
