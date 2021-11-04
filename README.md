@@ -62,3 +62,4 @@ The development of this website is made possible thanks to the inspiration and r
 - HTML Metadata
 - Search Engine Optimization
 - French Translation
+- Mobile Optimization
