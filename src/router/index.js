@@ -5,7 +5,7 @@ import About from "@/views/About.vue";
 import Now from "@/views/Now.vue";
 import CV from "@/views/CV.vue";
 import Projects from "@/views/Projects.vue";
-import NotFound from "@/views/NotFound.vue";
+// import NotFound from "@/views/NotFound.vue";
 
 Vue.use(VueRouter);
 
@@ -35,11 +35,11 @@ const routes = [
     name: "Projects",
     component: Projects,
   },
-  {
-    path: "*",
-    name: "NotFound",
-    component: NotFound,
-  },
+  // {
+  //   path: "*",
+  //   name: "NotFound",
+  //   component: NotFound,
+  // },
 ];
 
 const router = new VueRouter({
