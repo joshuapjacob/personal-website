@@ -6,12 +6,6 @@
         <h1>Cryptocurrency Trading Bot</h1>
         <h2>
           Statistical Arbitrage
-          <a
-            href="https://github.com/joshuapjacob/"
-            target="_blank"
-            title="GitHub Repository"
-            ><img src="@/assets/icons/github-brands.svg"
-          /></a>
         </h2>
         <p>
           A fully automated bot that identifies statistical arbitrage
@@ -38,7 +32,7 @@
       </div>
 
       <div class="block">
-        <h1>My Bachelor Thesis</h1>
+        <h1>Bachelor Thesis</h1>
         <h2>
           Black-Scholes with Liquidity Risk
           <a
@@ -57,7 +51,64 @@
       </div>
 
       <div class="block">
-        <h1>A Short Film</h1>
+        <h1>Almgren-Chriss Model</h1>
+        <h2>
+          Opimal Execution Numerical Analysis
+          <!-- <a
+            href="https://github.com/wak31415/x-it"
+            target="_blank"
+            title="GitHub Repository"
+            ><img src="@/assets/icons/github-brands.svg"
+          /></a> -->
+        </h2>
+        <p>
+          Project for my market structure course (INDENG 223 @ UC Berkeley).
+          Explored the liquidation of large positions while minimizing a
+          combination of volatility risk and transaction costs. Implemented a
+          solver for the general model with two correlated assets.
+        </p>
+      </div>
+
+      <div class="block">
+        <h1>Modeling Bike Usage</h1>
+        <h2>
+          Statistical Learning
+          <!-- <a
+            href="https://github.com/joshuapjacob/CSE301-Project"
+            target="_blank"
+            title="GitHub Repository"
+            ><img src="@/assets/icons/github-brands.svg"
+          /></a> -->
+        </h2>
+        <p>
+          Final project for a statistical learning course (INDENG 242 @ UC
+          Berkeley) in a team of five. Developed time-series and spatiotemporal
+          models using regression, decision trees, and recurrent neural
+          networks.
+        </p>
+      </div>
+
+      <div class="block">
+        <h1>2D Video Game</h1>
+        <h2>
+          "X-IT"
+          <a
+            href="https://github.com/wak31415/x-it"
+            target="_blank"
+            title="GitHub Repository"
+            ><img src="@/assets/icons/github-brands.svg"
+          /></a>
+        </h2>
+        <p>
+          Final project for my objected-oriented programming course (CSE201 @
+          Ecole Polytechnique). Developed with C++ in a team of five students
+          using SFML. Implemented the A* algorithm and procedural map
+          generation.
+        </p>
+      </div>
+
+      <div class="block">
+        <h1>Short Film</h1>
         <h2>
           "Drug Money"
           <a
@@ -86,10 +137,10 @@
           /></a>
         </h2>
         <p>
-          Final project for my freshman-year web programming course (CSE104 @
-          Ecole Polytechnique). Developed using HTML, CSS, and vanilla
-          JavaScript (+ Tone.js). The application allows you to select audio
-          samples and make beats with them.
+          Final project for my web programming course (CSE104 @ Ecole
+          Polytechnique). Developed using HTML, CSS, and vanilla JavaScript (+
+          Tone.js). The application allows you to select audio samples and make
+          beats with them.
         </p>
       </div>
 

@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <preloader />
+    <need-larger-display />
     <decorations />
     <custom-menu />
     <landing>
@@ -18,11 +19,13 @@ import Decorations from "@/components/Decorations.vue";
 import Landing from "@/components/Landing.vue";
 import CustomFooter from '@/components/CustomFooter.vue';
 import CustomMenu from '@/components/CustomMenu.vue';
+import NeedLargerDisplay from '@/components/NeedLargerDisplay.vue';
 
 export default {
   name: 'App',
   components: {
     Preloader,
+    NeedLargerDisplay,
     Decorations,
     Landing,
     CustomFooter,

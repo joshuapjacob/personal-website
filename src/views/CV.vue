@@ -16,10 +16,6 @@
       <h1>PROFESSIONAL EXPERIANCE</h1>
       <Experience />
     </div>
-    <!-- <div class="block">
-      <h1>PROJECT HIGHLIGHTS</h1>
-      <ProjectHighlights />
-    </div> -->
     <div class="block">
       <h1>EXTRA-CURRICULAR</h1>
       <ExtraCurricular />
@@ -41,7 +37,6 @@ import Marquees from "@/components/Marquees.vue";
 import Summary from "@/components/cv/Summary.vue";
 import Education from "@/components/cv/Education.vue";
 import Experience from "@/components/cv/Experience.vue";
-// import ProjectHighlights from "@/components/cv/ProjectHighlights.vue";
 import ExtraCurricular from "@/components/cv/ExtraCurricular.vue";
 import Additional from "@/components/cv/Additional.vue";
 import Certifications from "@/components/cv/Certifications.vue";
@@ -53,7 +48,6 @@ export default {
     Summary,
     Education,
     Experience,
-    // ProjectHighlights,
     ExtraCurricular,
     Additional,
     Certifications,

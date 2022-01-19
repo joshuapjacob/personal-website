@@ -8,14 +8,14 @@
       />
       <div class="item-details">
         <div class="title">
-          <h3>J.P. Morgan</h3>
+          <h3>J.P. Morgan Chase & Co.</h3>
           <h3>Remote</h3>
         </div>
         <div class="subtitle">
           <h4>
-            Qurantitative Research Capstone Project
+            Capstone Project - Aritificial Intelligence Research
           </h4>
-          <h4>Nov 2021 - Apr 2022</h4>
+          <h4>Dec 2021 - Apr 2022</h4>
         </div>
       </div>
     </div>
