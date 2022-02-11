@@ -10,7 +10,7 @@
             href="https://ieor.berkeley.edu/academics/master-of-engineering/"
             target="_blank"
           >
-            Master of Engineerging student at UC Berkeley</a
+            Master of Engineering student at UC Berkeley</a
           >, majoring in <b>Industrial Engineering</b> and
           <b>Operations Research</b> with a specialization in
           <b>Financial Technology</b>. I previously earned a
@@ -31,13 +31,13 @@
 
       <div class="block">
         <h1>A LITTLE MORE</h1>
-        <p>&gt; I'm <span id="age">20</span> years old.</p>
+        <p>&gt; I'm <span id="age">21</span> years old.</p>
 
         <p>&gt; I've visited 25 countries and lived in 3 continents.</p>
 
-        <p>&gt; I'm speak English, French, and Tamil.</p>
+        <p>&gt; I speak English, French, and Tamil.</p>
 
-        <p>&gt; I can code in Python, JavaScript, C++, and OCaml.</p>
+        <p>&gt; I can code in Python, JavaScript, and C++.</p>
 
         <p>&gt; I love learning and building new things.</p>
 

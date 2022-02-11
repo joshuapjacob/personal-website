@@ -13,7 +13,7 @@
       <Education />
     </div>
     <div class="block">
-      <h1>PROFESSIONAL EXPERIANCE</h1>
+      <h1>PROFESSIONAL EXPERIENCE</h1>
       <Experience />
     </div>
     <div class="block">
@@ -33,7 +33,6 @@
 
 <script>
 import Marquees from "@/components/Marquees.vue";
-
 import Summary from "@/components/cv/Summary.vue";
 import Education from "@/components/cv/Education.vue";
 import Experience from "@/components/cv/Experience.vue";
@@ -55,6 +54,9 @@ export default {
   metaInfo: {
     title: "CV",
   },
+  mounted() {
+    window.scrollTo(0,0);
+  }
 };
 </script>
 

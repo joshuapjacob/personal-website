@@ -1,11 +1,11 @@
 <template>
   <div id="nav-container">
-  <nav class="nav-fixed">
-    <p><router-link to="/about">/ ABOUT /</router-link></p>
-    <p><router-link to="/now">/ NOW /</router-link></p>
-    <p><router-link to="/cv">/ CV /</router-link></p>
-    <p><router-link to="/projects">/ PROJECTS /</router-link></p>
-  </nav>
+    <nav class="nav-fixed">
+      <p><router-link to="/about">/ ABOUT /</router-link></p>
+      <p><router-link to="/now">/ NOW /</router-link></p>
+      <p><router-link to="/cv">/ CV /</router-link></p>
+      <p><router-link to="/projects">/ PROJECTS /</router-link></p>
+    </nav>
   </div>
 </template>
 
@@ -14,16 +14,25 @@ export default {
   data() {
     return {
       navbar: null,
+      prevScrollPosition: null,
     };
   },
   mounted() {
     this.navbar = document.querySelector(".nav-fixed");
+    this.prevScrollPosition = window.scrollY;
     window.onscroll = () => {
-      if (window.scrollY > 50) {
+      var currentScrollPos = window.pageYOffset;
+      if (this.prevScrollPosition > currentScrollPos) {
+        this.navbar.style.top = "0";
+      } else {
+        this.navbar.style.top = "-70px";
+      }
+      if (currentScrollPos > 50) {
         this.navbar.classList.add("nav-active");
       } else {
         this.navbar.classList.remove("nav-active");
       }
+      this.prevScrollPosition = currentScrollPos;
     };
   },
 };
@@ -38,25 +47,27 @@ export default {
 
 .nav-fixed {
   display: flex;
-  width: 100%;
   justify-content: center;
   background-color: transparent;
   position: fixed;
+  margin-top: 20px;
+  padding: 0 60px;
   top: 0;
   z-index: 1;
   transition: ease 0.3s;
+  background-color: rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(48, 20, 20, 0.6);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
 }
 
 .nav-active {
-  background-color: rgba(0, 0, 0, 0.9);
-  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.9);
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.9);
+  background-color: black;
 }
 
 .nav-fixed p {
   font-weight: 400;
-  font-size: 16px;
-  padding: 20px 40px;
+  font-size: 14px;
+  padding: 10px 40px;
 }
 
 .router-link-exact-active {

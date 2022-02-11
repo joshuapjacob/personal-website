@@ -9,8 +9,8 @@
         <div id="last_name" class="name noselect">Jacob /</div>
       </div>
       <router-link id="cta" to="/cv"
-        >I'm actively seeking an internship in quantitative finance. Hire
-        me!</router-link
+        >I'm actively seeking an internship in quantitative
+        finance.</router-link
       >
     </div>
   </div>
@@ -30,7 +30,7 @@ export default {
 </script>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
 
 #welcome {
   margin: auto;

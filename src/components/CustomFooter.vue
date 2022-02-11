@@ -7,7 +7,7 @@
       <a
         href="https://github.com/joshuapjacob/joshuapjacob.com"
         target="_blank"
-        title="Source Code Repository "
+        title="GitHub Repository"
       >
         &lt; view source code /&gt;
       </a>

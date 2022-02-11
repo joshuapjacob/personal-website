@@ -6,31 +6,33 @@
         <h1>WHAT AM I UP TO NOW?</h1>
 
         <p>
-          Some of the things I'm learning this semester include market
-          microstructure, reinforcement learning in finance, and applied
-          statistical learning. I'm trying to run more regularly and I'm (still)
-          developing this website. I'm trying to get better at chess and I'm
-          reading
-          <a
-            href="https://www.goodreads.com/book/show/28186015-weapons-of-math-destruction"
-            target="_blank"
-            >Cathy O'Neil's <i>Weapons of Math Destruction</i></a
+          Some of the things I'm learning this semester include financial
+          engineering, stochastic calculus,
+          <a href="https://datax.berkeley.edu/" _target="_blank">
+            data science with venture applications</a
+          >, and hedge fund strategies. I'm working on my capstone project which
+          involves applications of reinforcement learning in multi-agent trading
+          simulations. I'm trying to run more regularly and get better at chess.
+          I'm currently reading
+          <a href="https://www.goodreads.com/book/show/10454418-the-most-important-thing" target="_blank"
+            >Howard Marks's <i>The Most Important Thing: Uncommon Sense for the Thoughtful Investor</i></a
           >.
           <b
             ><router-link to="/cv"
               >I'm also actively seeking an internship in quantitative finance.
-              Hire me!</router-link
+              </router-link
             ></b
           >
         </p>
 
         <p class="grey">
-          Last Updated: October 2<sup>nd</sup>, 2021
+          Last Updated: February 6<sup>th</sup>, 2022
         </p>
       </div>
 
       <div id="wakatime" class="block">
         <h1>MY CODING ACTIVITY</h1>
+        <p>These graphs are automatically generated and updated live.</p>
         <div id="imgs_container">
           <img
             src="https://wakatime.com/share/@711c15b0-f043-4685-9869-1182df23fcbb/7a5bc2ba-d2de-4974-96c3-1ce0a1c8e9db.png"
@@ -93,7 +95,7 @@ h1 {
 
 /* WAKATIME ----------------------------------------------------------------- */
 
-#wakatime {
+#imgs_container {
   display: flex;
   flex-direction: row;
 }

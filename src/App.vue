@@ -17,12 +17,12 @@
 import Preloader from "@/components/Preloader.vue";
 import Decorations from "@/components/Decorations.vue";
 import Landing from "@/components/Landing.vue";
-import CustomFooter from '@/components/CustomFooter.vue';
-import CustomMenu from '@/components/CustomMenu.vue';
-import NeedLargerDisplay from '@/components/NeedLargerDisplay.vue';
+import CustomFooter from "@/components/CustomFooter.vue";
+import CustomMenu from "@/components/CustomMenu.vue";
+import NeedLargerDisplay from "@/components/NeedLargerDisplay.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     Preloader,
     NeedLargerDisplay,
@@ -32,15 +32,26 @@ export default {
     CustomMenu,
   },
   metaInfo: {
-    title: 'Joshua Paul Jacob',
-    titleTemplate: '%s | Joshua Paul Jacob',
-  }
+    title: "Joshua Paul Jacob",
+    titleTemplate: "%s | Joshua Paul Jacob",
+    htmlAttrs: {
+      lang: "en-US",
+    },
+    meta: [
+      { charset: "utf-8" },
+      {
+        name: "description",
+        content: "Joshua Paul Jacob's personal website and project portfolio.",
+      },
+      { name: "viewport", content: "width=device-width, initial-scale=1" },
+    ],
+  },
 };
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alata&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 
 * {
   box-sizing: border-box;
