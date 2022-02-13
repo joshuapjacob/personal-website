@@ -22,6 +22,10 @@ import {
   Vector2,
   sRGBEncoding,
   PlaneGeometry,
+  // BufferGeometry,
+  // BufferAttribute,
+  // PointsMaterial,
+  // Points,
 } from "three";
 import { EffectComposer } from "three/examples/jsm/postprocessing/EffectComposer.js";
 import { RenderPass } from "three/examples/jsm/postprocessing/RenderPass.js";
@@ -85,6 +89,26 @@ export default {
         const plane = new Mesh(geometry, material);
         scene.add(plane);
       }
+
+      // Particles
+      // https://tympanus.net/codrops/2022/01/05/crafting-scroll-based-animations-in-three-js/
+      // const particlesCount = 100
+      // const positions = new Float32Array(particlesCount * 3)
+      // for(let i = 0; i < particlesCount; i++)
+      // {
+      //     positions[i * 3 + 0] = (Math.random() - 0.5) * 10
+      //     positions[i * 3 + 1] = (Math.random() - 0.5) * 0.5
+      //     positions[i * 3 + 2] = (Math.random() - 0.5) * 2 - 1
+      // }
+      // const particlesGeometry = new BufferGeometry()
+      // particlesGeometry.setAttribute('position', new BufferAttribute(positions, 3))
+      // const particlesMaterial = new PointsMaterial({
+      //   color: '#f0f0f0',
+      //   sizeAttenuation: true,
+      //   size: 0.01
+      // })
+      // const particles = new Points(particlesGeometry, particlesMaterial)
+      // scene.add(particles)
 
       // Post-Processing
       this.composer = new EffectComposer(this.renderer);
