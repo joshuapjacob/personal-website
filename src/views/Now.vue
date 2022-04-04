@@ -7,26 +7,24 @@
 
         <p>
           Some of the things I'm learning this semester include financial
-          engineering, stochastic calculus,
-          <a href="https://datax.berkeley.edu/" _target="_blank">
-            data science with venture applications</a
-          >, and hedge fund strategies. I'm working on my capstone project which
-          involves applications of reinforcement learning in multi-agent trading
-          simulations. I'm trying to run more regularly and get better at chess.
-          I'm currently reading
-          <a href="https://www.goodreads.com/book/show/10454418-the-most-important-thing" target="_blank"
-            >Howard Marks's <i>The Most Important Thing: Uncommon Sense for the Thoughtful Investor</i></a
+          engineering, stochastic calculus, and hedge fund strategies. I'm
+          working on my capstone project which involves designing, implementing,
+          and evaluating multi-agent simulations of market manipulation with
+          reinforcement learning. I'm trying to run more regularly and get
+          better at chess. I'm currently reading
+          <a
+            href="https://www.amazon.com/Kingpin-Hacker-Billion-Dollar-Cybercrime-Underground/dp/0307588696"
+            target="_blank"
+            >Kevin Poulsen's
+            <i
+              >Kingpin: How One Hacker Took Over the Billion-Dollar Cybercrime
+              Underground</i
+            ></a
           >.
-          <b
-            ><router-link to="/cv"
-              >I'm also actively seeking an internship in quantitative finance.
-              </router-link
-            ></b
-          >
         </p>
 
         <p class="grey">
-          Last Updated: February 6<sup>th</sup>, 2022
+          Last Updated: April 4<sup>th</sup>, 2022
         </p>
       </div>
 

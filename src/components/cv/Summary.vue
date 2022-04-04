@@ -1,6 +1,6 @@
 <template>
   <div><p>I'm an ambitious and inquisitive international student with a strong passion for
-technology and finance, seeking <b>internship opportunities for summer 2022 in quantitative finance</b>. I embrace new challenges, love solving problems,
+technology and finance. I embrace new challenges, love solving problems,
 do well under pressure, and pride myself on being a quick learner.
     </p>
     <p><a

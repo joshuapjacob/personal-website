@@ -8,10 +8,6 @@
         </div>
         <div id="last_name" class="name noselect">Jacob /</div>
       </div>
-      <router-link id="cta" to="/cv"
-        >I'm actively seeking an internship in quantitative
-        finance.</router-link
-      >
     </div>
   </div>
 </template>
