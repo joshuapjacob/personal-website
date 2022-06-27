@@ -6,31 +6,21 @@
         <h1>WHAT AM I UP TO NOW?</h1>
 
         <p>
-          Some of the things I'm learning this semester include financial
-          engineering, stochastic calculus, and hedge fund strategies. I'm
-          working on my capstone project which involves designing, implementing,
-          and evaluating multi-agent simulations of market manipulation with
-          reinforcement learning. I'm trying to run more regularly and get
-          better at chess. I'm currently reading
-          <a
-            href="https://www.amazon.com/Kingpin-Hacker-Billion-Dollar-Cybercrime-Underground/dp/0307588696"
-            target="_blank"
-            >Kevin Poulsen's
-            <i
-              >Kingpin: How One Hacker Took Over the Billion-Dollar Cybercrime
-              Underground</i
-            ></a
-          >.
+          I'm currently a quantitative research intern at BlackRock in San
+          Francisco. I work on the systematic active equities team and I'm
+          learning a lot about active portfolio management, designing investment
+          signals, and backtesting statistical models.
         </p>
 
-        <p class="grey">
-          Last Updated: April 4<sup>th</sup>, 2022
-        </p>
+        <p class="grey">Last Updated: June 26<sup>th</sup>, 2022</p>
       </div>
 
       <div id="wakatime" class="block">
         <h1>MY CODING ACTIVITY</h1>
-        <p>These graphs are automatically generated and updated live.</p>
+        <p>
+          These graphs are automatically generated and updated live. They do not
+          count developement of proprietary software.
+        </p>
         <div id="imgs_container">
           <img
             src="https://wakatime.com/share/@711c15b0-f043-4685-9869-1182df23fcbb/7a5bc2ba-d2de-4974-96c3-1ce0a1c8e9db.png"

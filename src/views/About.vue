@@ -33,7 +33,7 @@
         <h1>A LITTLE MORE</h1>
         <p>&gt; I'm <span id="age">21</span> years old.</p>
 
-        <p>&gt; I've visited 25 countries and lived in 3 continents.</p>
+        <p>&gt; I've visited 27 countries and lived in 3 continents.</p>
 
         <p>&gt; I speak English, French, and Tamil.</p>
 

@@ -3,6 +3,26 @@
     <div class="item">
       <img
         class="logo"
+        src="@/assets/logos/blackrock.png"
+        alt="Joshua Paul Jacob"
+      />
+      <div class="item-details">
+        <div class="title">
+          <h3>BlackRock</h3>
+          <h3>San Francisco, CA, USA</h3>
+        </div>
+        <div class="subtitle">
+          <h4>
+            Quantitative Research Intern - Systematic Active Equities
+          </h4>
+          <h4>Jun 2022 - Aug 2022</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="item">
+      <img
+        class="logo"
         src="@/assets/logos/jpmorgan.png"
         alt="Joshua Paul Jacob"
       />
@@ -28,7 +48,7 @@
       />
       <div class="item-details">
         <div class="title">
-          <h3>Centre de Mathématiques Appliquées – École Polytechnique (CMAP)</h3>
+          <h3>Centre de Mathématiques Appliquées - École Polytechnique (CMAP)</h3>
           <h3>Palaiseau, France</h3>
         </div>
         <div class="subtitle">

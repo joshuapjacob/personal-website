@@ -161,7 +161,7 @@
           <div class="right">
             <span>MAY 2021</span>
             <a
-              href="https://github.com/joshuapjacob/dotfiles"
+              href="https://github.com/joshuapjacob/computer-graphics"
               target="_blank"
               title="GitHub Repository"
               ><img src="@/assets/icons/github-brands.svg"
@@ -399,6 +399,7 @@ hr {
 
 ul {
   padding: 0 25px;
+  list-style-type: "> ";
   list-style-position: outside;
 }
 
@@ -416,7 +417,7 @@ ul {
 .block {
   background: rgba(0, 0, 0, 0.6);
   padding: 20px;
-  margin: 10px 10px;
+  margin: 30px;
   -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.6);
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.6);
 }

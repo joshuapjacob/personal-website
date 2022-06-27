@@ -5,6 +5,7 @@
       <p><router-link to="/now">/ NOW /</router-link></p>
       <p><router-link to="/cv">/ CV /</router-link></p>
       <p><router-link to="/projects">/ PROJECTS /</router-link></p>
+      <p><router-link to="/coursework">/ COURSEWORK /</router-link></p>
     </nav>
   </div>
 </template>
@@ -40,12 +41,13 @@ export default {
 
 <style>
 #nav-container {
-  width: 100%;
   display: flex;
   justify-content: center;
 }
 
 .nav-fixed {
+  width: calc(100vw - 20px);
+  max-width: 940px;
   display: flex;
   justify-content: center;
   background-color: transparent;

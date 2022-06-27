@@ -63,3 +63,4 @@ The development of this website is made possible thanks to the inspiration and r
 - Search Engine Optimization
 - French Translation
 - Mobile Optimization
+- Fix headings on CV page
