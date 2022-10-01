@@ -1,31 +1,35 @@
 <template>
   <div id="app">
     <preloader />
-    <need-larger-display />
-    <decorations />
-    <custom-menu />
-    <landing>
-      <transition name="fade" mode="out-in">
-        <router-view />
-      </transition>
-    </landing>
-    <custom-footer />
+    <div id="mobile">
+      <mobile />
+    </div>
+    <div id="desktop">
+      <decorations />
+      <custom-menu />
+      <landing>
+        <transition name="fade" mode="out-in">
+          <router-view />
+        </transition>
+      </landing>
+      <custom-footer />
+    </div>
   </div>
 </template>
 
 <script>
 import Preloader from "@/components/Preloader.vue";
+import Mobile from "@/components/Mobile.vue";
 import Decorations from "@/components/Decorations.vue";
 import Landing from "@/components/Landing.vue";
 import CustomFooter from "@/components/CustomFooter.vue";
 import CustomMenu from "@/components/CustomMenu.vue";
-import NeedLargerDisplay from "@/components/NeedLargerDisplay.vue";
 
 export default {
   name: "App",
   components: {
     Preloader,
-    NeedLargerDisplay,
+    Mobile,
     Decorations,
     Landing,
     CustomFooter,
@@ -57,6 +61,10 @@ export default {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+#mobile {
+  display: none;
 }
 
 html,
@@ -97,5 +105,16 @@ a:hover {
 .fade-enter,
 .fade-leave-to {
   opacity: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+
+  #desktop {
+    display: none;
+  }
+
+  #mobile {
+    display: block;
+  }
 }
 </style>

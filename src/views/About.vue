@@ -94,7 +94,7 @@ export default {
 #about {
   width: 100%;
   height: 100vh;
-  max-width: 1250px;
+  max-width: calc(min(1250px, 85vw));
   display: flex;
   align-items: center;
   justify-content: center;
@@ -145,47 +145,9 @@ img {
 }
 
 @media only screen and (max-width: 1300px) {
-  #about {
-    flex-direction: column;
-  }
-
-  #img_container {
-    margin: 0 0 50px 0;
-  }
-  img {
-    top: 0;
+  #right {
+    display: none;
   }
 }
 
-@media only screen and (max-width: 700px) {
-  h1 {
-    font-size: 1.5em;
-    top: -18px;
-  }
-  p {
-    font-size: 14px;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  h1 {
-    font-size: 1.25em;
-    top: -12px;
-  }
-  img {
-    height: auto;
-    width: 60vw;
-  }
-}
-
-@media only screen and (max-width: 400px) {
-  h1 {
-    font-size: 1em;
-    top: -10px;
-  }
-  img {
-    height: auto;
-    width: 50vw;
-  }
-}
 </style>

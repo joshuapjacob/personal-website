@@ -65,4 +65,12 @@ export default {
     right: calc(-100vh + 5vw);
   }
 }
+
+@media only screen and (max-width: 1200px) {
+
+  .marquee-container {
+    display: none;
+  }
+
+}
 </style>

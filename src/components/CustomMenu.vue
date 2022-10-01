@@ -47,13 +47,13 @@ export default {
 
 .nav-fixed {
   width: calc(100vw - 20px);
-  max-width: 940px;
+  max-width: calc(min(940px, 85vw - 60px));
   display: flex;
   justify-content: center;
   background-color: transparent;
   position: fixed;
   margin-top: 20px;
-  padding: 0 60px;
+  padding: 0 10px;
   top: 0;
   z-index: 1;
   transition: ease 0.3s;
@@ -69,7 +69,7 @@ export default {
 .nav-fixed p {
   font-weight: 400;
   font-size: 14px;
-  padding: 10px 40px;
+  padding: 10px 30px;
 }
 
 .router-link-exact-active {

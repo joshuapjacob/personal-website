@@ -388,7 +388,7 @@ export default {
 main {
   margin-top: 85px;
   width: 100vw;
-  max-width: 1000px;
+  max-width: calc(min(1000px, 85vw));
 }
 
 hr {

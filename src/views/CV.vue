@@ -13,7 +13,7 @@
       <Education />
     </div>
     <div class="block">
-      <h1>PROFESSIONAL EXPERIENCE</h1>
+      <h1>EXPERIENCE</h1>
       <Experience />
     </div>
     <div class="block">
@@ -64,7 +64,7 @@ export default {
 #cv {
   margin-top: 100px;
   width: 100vw;
-  max-width: 1000px;
+  max-width: calc(min(1000px, 85vw));
 }
 
 .block {

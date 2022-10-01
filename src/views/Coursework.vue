@@ -13,10 +13,19 @@
         <li>IEOR 242: Applications of Statistical Learning</li>
         <li>IEOR 222:	Financial Engineering Systems I - Stochastic Calculus</li>
         <li>IEOR 223:	Financial Engineering Systems II - Market Microstructure</li>
+        <li>IEOR 290: Applications of Machine Learning to Electronic Markets</li>
         <li>IEOR 295: A. Richard Newton Lecture Series (Berkeley Changemaker™ Course)</li>
+        <li>IEOR 299: Individual Study - Industry Project (Internship)</li>
       </ul>
       <ul>
+        <li>MBA 236I: Fixed Income</li>
         <li>MBA 236J: Hedge Fund Strategies</li>
+        <li>MBA 294: Investment Management Speaker Series</li>
+      </ul>
+      <ul>
+        <li>STAT 210A: Theoretical Statistics</li>
+        <li>MPS 375: Supervised Teaching in Math and the Physical Sciences</li>
+        <li>PHYSICS 301: Advanced Supervised Teaching of Physics</li>
       </ul>
       <ul>
         <li>ENGIN 270A: Organizational Behavior for Engineers</li>
@@ -92,6 +101,10 @@
       <ul>
         <li>15.481x: Adaptive Markets - Financial Market Dynamics and Human Behavior</li>
       </ul>
+      <h3>DeepLearning.AI</h3>
+      <ul>
+        <li>Deep Learning Specialization</li>
+      </ul>
     </div>
   </div>
 </template>
@@ -117,7 +130,7 @@ export default {
 #coursework {
   margin-top: 100px;
   width: 100vw;
-  max-width: 1000px;
+  max-width: calc(min(1000px, 85vw));
 }
 
 .block {
