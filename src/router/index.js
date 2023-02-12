@@ -3,7 +3,7 @@ import VueRouter from "vue-router";
 import Welcome from "@/views/Welcome.vue";
 import About from "@/views/About.vue";
 import Now from "@/views/Now.vue";
-import CV from "@/views/CV.vue";
+// import CV from "@/views/CV.vue";
 import Projects from "@/views/Projects.vue";
 import Coursework from "@/views/Coursework.vue";
 
@@ -25,11 +25,11 @@ const routes = [
     name: "Now",
     component: Now,
   },
-  {
-    path: "/cv",
-    name: "CV",
-    component: CV,
-  },
+  // {
+  //   path: "/cv",
+  //   name: "CV",
+  //   component: CV,
+  // },
   {
     path: "/projects",
     name: "Projects",

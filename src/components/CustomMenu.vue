@@ -3,7 +3,7 @@
     <nav class="nav-fixed">
       <p><router-link to="/about">/ ABOUT /</router-link></p>
       <p><router-link to="/now">/ NOW /</router-link></p>
-      <p><router-link to="/cv">/ CV /</router-link></p>
+      <!-- <p><router-link to="/cv">/ CV /</router-link></p> -->
       <p><router-link to="/projects">/ PROJECTS /</router-link></p>
       <p><router-link to="/coursework">/ COURSEWORK /</router-link></p>
     </nav>

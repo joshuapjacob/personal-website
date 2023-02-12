@@ -6,27 +6,16 @@
         <h1>ABOUT ME</h1>
         <p>
           I'm currently a
-          <a
-            href="https://ieor.berkeley.edu/academics/master-of-engineering/"
-            target="_blank"
-          >
-            Master of Engineering student at UC Berkeley</a
-          >, majoring in <b>Industrial Engineering</b> and
+          <a href="https://ieor.berkeley.edu/academics/master-of-engineering/" target="_blank">
+            Master of Engineering student at UC Berkeley</a>, majoring in <b>Industrial Engineering</b> and
           <b>Operations Research</b> with a specialization in
           <b>Financial Technology</b>. I previously earned a
-          <a
-            href="https://programmes.polytechnique.edu/en/bachelor/bachelor-of-science"
-            target="_blank"
-            >Bachelor of Science degree from École Polytechnique</a
-          >
+          <a href="https://programmes.polytechnique.edu/en/bachelor/bachelor-of-science" target="_blank">Bachelor of
+            Science degree from École Polytechnique</a>
           in Paris, France where I majored in <b>Mathematics</b> and
           <b>Computer Science</b>.
         </p>
 
-        <p>
-          I'm interested in pursuing a career in <b>Quantitative Finance</b>.
-        </p>
-        <p><router-link to="/cv">Have a look at my résumé!</router-link></p>
       </div>
 
       <div class="block">
@@ -67,7 +56,7 @@ export default {
     };
   },
   methods: {
-    computeAge: function() {
+    computeAge: function () {
       const exact = (Date.now() - this.birthday.getTime()) / this.MS_PER_YEAR;
       document.getElementById("age").innerHTML = (
         Math.floor(exact * 10000000) / 10000000
@@ -149,5 +138,4 @@ img {
     display: none;
   }
 }
-
 </style>

@@ -26,10 +26,9 @@ npm run serve
 ```
 
 ### Production
-Authentication is required to push to the docker repository.
 ```console
-docker build . -t joshuapjacob/joshuapjacob.com:latest
-docker push joshuapjacob/joshuapjacob.com:latest
+sudo docker build . -t personal-website
+sudo docker run -p 80:80 -it personal-website
 ```
 
 ### Linting

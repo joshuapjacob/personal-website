@@ -2,13 +2,9 @@
   <div id="footer">
     <div id="inner">
       <div class="vl"></div>
-      <p>Ⓒ Joshua Paul Jacob 2021 — All Rights Reserved</p>
+      <p>Ⓒ Joshua Paul Jacob 2023 — All Rights Reserved</p>
       <div class="vl"></div>
-      <a
-        href="https://github.com/joshuapjacob/joshuapjacob.com"
-        target="_blank"
-        title="GitHub Repository"
-      >
+      <a href="https://github.com/joshuapjacob/joshuapjacob.com" target="_blank" title="GitHub Repository">
         &lt; view source code /&gt;
       </a>
       <div class="vl"></div>
@@ -21,7 +17,6 @@ export default {};
 </script>
 
 <style scoped>
-
 #footer {
   position: fixed;
   z-index: 10;
@@ -69,5 +64,4 @@ a {
 a:hover {
   color: lightgrey;
 }
-
 </style>
