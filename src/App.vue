@@ -6,7 +6,7 @@
     </div>
     <div id="desktop">
       <decorations />
-      <custom-menu />
+      <!-- <custom-menu /> -->
       <landing>
         <transition name="fade" mode="out-in">
           <router-view />
@@ -23,7 +23,7 @@ import Mobile from "@/components/Mobile.vue";
 import Decorations from "@/components/Decorations.vue";
 import Landing from "@/components/Landing.vue";
 import CustomFooter from "@/components/CustomFooter.vue";
-import CustomMenu from "@/components/CustomMenu.vue";
+// import CustomMenu from "@/components/CustomMenu.vue";
 
 export default {
   name: "App",
@@ -33,7 +33,7 @@ export default {
     Decorations,
     Landing,
     CustomFooter,
-    CustomMenu,
+    // CustomMenu,
   },
   metaInfo: {
     title: "Joshua Paul Jacob",
